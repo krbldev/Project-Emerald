@@ -36,7 +36,7 @@ header {
     transform: translateX(-50%);
     width: 100%;
     max-width: 950px;
-    padding: 10px 20px;
+    padding: 10px 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +63,7 @@ header.shrink {
     font-size: 1.1em;
     color: #fff;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 550;
     margin-left: 40px;
 }
 
@@ -96,7 +96,7 @@ header.shrink {
     cursor: pointer;
     font-size: 1.1em;
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
     transition: 0.5s;
 }
 
@@ -125,7 +125,6 @@ header.shrink {
     align-items: center;
     width: 100%;
     max-width: 1000px;
-    padding: 20px;
 }
 
 .intro {
@@ -172,7 +171,7 @@ header.shrink {
 .wrapper {
     width: 1200px;
     border-radius: 20px;
-    backdrop-filter: blur(5px);
+    background-color: darkolivegreen;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,17 +185,19 @@ header.shrink {
 .wrapper h1 {
     font-size: 60px;
     margin-bottom: 40px;
+    color: #fff;
 }
 
-.Builds {
+.Cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
     width: 100%;
+    padding-bottom: 25px;
 }
 
-.builds {
+.cards {
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -206,7 +207,7 @@ header.shrink {
     align-items: center;
 }
 
-.builds .placeholder {
+.cards .placeholder {
     width: 150px;
     height: 300px;
     background-color: #4A90E2;
@@ -216,25 +217,34 @@ header.shrink {
     transition: transform 0.3s;
 }
 
-.builds:hover .placeholder {
+.cards:hover .placeholder {
     transform: scale(1.1);
 }
 
-.builds p {
+.cards p {
     margin-top: 10px;
     font-size: 18px;
 }
 
-.footer {
-    width: 100%;
+footer {
+    position: relative;
+    left: 50%;
+    bottom: 0px;
+    transform: translateX(-50%);
+    width: 280px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: darkolivegreen;
     color: #fff;
-    margin-top: 50px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border: 1px solid #162938;
+    z-index: 1000;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .loader {
