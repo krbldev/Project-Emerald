@@ -1,97 +1,615 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Project Emerald - Home</title>
-  <link rel="stylesheet" href="./CSS/home.css" />
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <link rel="shortcut icon" href="./Images/TheSandboxWhite.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Project Emerald | Home</title>
+
+    <link rel="stylesheet" href="./CSS/home.css">
+
+    <link
+        href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="shortcut icon"
+        href="./Images/TheSandboxWhite.png"
+        type="image/x-icon"
+    >
 </head>
+
 <body>
 
-  <header>
-      <h2 class="logo">Home</h2>
-      <nav class="navigation">
-          <a href="./index.html">Home</a>
-          <a href="./HTML/aboutus.html">About</a>
-          <a href="./HTML/contact.html">Contact</a>
-      </nav>
-      <div id="login-container">
-          <button id="login-button" class="btnLogin">
-              <i class='bx bxl-google'></i> Login With Google
-          </button>
-      </div>
-  </header>
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-  <div class="wrapper">
-    <div class="content">
-        <h1>Placeholder</h1>
-    </div>
-    <div class="Cards">
-        <a href="./HTML/events.html" class="cards">
-            <div class="placeholder"></div>
-            <p>Events</p>
-        </a>
-        <a href="./HTML/news.html" class="cards">
-            <div class="placeholder"></div>
-            <p>News</p>
-        </a>
-        <a href="./HTML/clubs.html" class="cards">
-            <div class="placeholder"></div>
-            <p>Clubs</p>
-        </a>
-        <a href="./HTML/gallery.html" class="cards">
-            <div class="placeholder"></div>
-            <p>Gallery</p>
-        </a>
-        <a href="./HTML/achievements.html" class="cards">
-            <div class="placeholder"></div>
-            <p>Achievements</p>
-        </a>
-        <a href="./HTML/admission.html" class="cards">
-            <div class="placeholder"></div>
-            <p>Admission</p>
-        </a>
-    </div>
-  </div>
+    <header class="site-header">
 
-    <div class="wrapper2">
-    <div class="content2">
-        <h1>Placeholder</h1>
-    </div>
-    <div class="Cards2">
-        <a href="./HTML/events.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-        <a href="./HTML/news.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-        <a href="./HTML/clubs.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-        <a href="./HTML/gallery.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-        <a href="./HTML/achievements.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-        <a href="./HTML/admission.html" class="cards2">
-            <div class="placeholder"></div>
-            <p>Placeholder</p>
-        </a>
-    </div>
-  </div>
+        <a href="./index.html" class="brand">
+            <div class="brand-mark">PE</div>
 
-  <footer>
-      <p>&copy; 2025 <a href="https://youtube.com/@itslexiesdiary">lexie</a>. All rights reserved.</p>
-  </footer>
+            <div class="brand-text">
+                <span class="brand-name">PROJECT EMERALD</span>
+                <span class="brand-subtitle">Official School Website</span>
+            </div>
+        </a>
+
+
+        <nav class="navigation">
+
+            <a href="./index.html" class="active">
+                Home
+            </a>
+
+            <a href="./HTML/aboutus.html">
+                About
+            </a>
+
+            <a href="./HTML/events.html">
+                Events
+            </a>
+
+            <a href="./HTML/news.html">
+                News
+            </a>
+
+            <a href="./HTML/clubs.html">
+                Clubs
+            </a>
+
+            <a href="./HTML/contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- Google Login
+             Authentication intentionally disabled for now -->
+
+        <button id="login-button" class="login-button">
+            <i class="bx bxl-google"></i>
+            Login
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <p class="eyebrow">
+                    WELCOME TO OUR SCHOOL
+                </p>
+
+                <h1>
+                    Inspiring Students.
+                    <br>
+                    Building Futures.
+                </h1>
+
+                <p class="hero-description">
+                    A place where students discover their potential,
+                    develop their passions, and become part of a
+                    community that looks toward the future.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="./HTML/aboutus.html" class="primary-button">
+                        Discover Our School
+                        <i class="bx bx-right-arrow-alt"></i>
+                    </a>
+
+                    <a href="./HTML/admission.html" class="secondary-button">
+                        Admissions
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-scroll">
+                <span>Scroll to explore</span>
+                <i class="bx bx-chevron-down"></i>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUICK LINKS
+        ========================== -->
+
+        <section class="quick-links section">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    EXPLORE
+                </span>
+
+                <h2>
+                    Everything you need,
+                    <span>in one place.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="quick-grid">
+
+                <a href="./HTML/events.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-calendar-event"></i>
+                    </div>
+
+                    <div>
+                        <h3>Events</h3>
+                        <p>
+                            See what's happening around campus.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+
+                <a href="./HTML/news.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-news"></i>
+                    </div>
+
+                    <div>
+                        <h3>News</h3>
+                        <p>
+                            School announcements and stories.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+
+                <a href="./HTML/clubs.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-group"></i>
+                    </div>
+
+                    <div>
+                        <h3>Clubs</h3>
+                        <p>
+                            Discover student organizations.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+
+                <a href="./HTML/gallery.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-images"></i>
+                    </div>
+
+                    <div>
+                        <h3>Gallery</h3>
+                        <p>
+                            Explore life around our school.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+
+                <a href="./HTML/achievements.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-trophy"></i>
+                    </div>
+
+                    <div>
+                        <h3>Achievements</h3>
+                        <p>
+                            Celebrate our students' success.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+
+                <a href="./HTML/admission.html" class="quick-card">
+                    <div class="quick-icon">
+                        <i class="bx bx-door-open"></i>
+                    </div>
+
+                    <div>
+                        <h3>Admissions</h3>
+                        <p>
+                            Information for future students.
+                        </p>
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             EVENTS + NEWS
+        ========================== -->
+
+        <section class="school-updates section">
+
+            <div class="section-heading split-heading">
+
+                <div>
+                    <span class="section-label">
+                        STAY CONNECTED
+                    </span>
+
+                    <h2>
+                        What's happening
+                        <span>at school.</span>
+                    </h2>
+                </div>
+
+                <a href="./HTML/events.html" class="text-link">
+                    View all
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+            </div>
+
+
+            <div class="updates-grid">
+
+
+                <!-- EVENT -->
+
+                <article class="event-card">
+
+                    <div class="event-date">
+
+                        <span class="event-month">
+                            MAR
+                        </span>
+
+                        <strong>
+                            15
+                        </strong>
+
+                        <span>
+                            2027
+                        </span>
+
+                    </div>
+
+
+                    <div class="event-information">
+
+                        <span class="event-type">
+                            SCHOOL EVENT
+                        </span>
+
+                        <h3>
+                            Placeholder Event
+                        </h3>
+
+                        <p class="event-location">
+                            <i class="bx bx-map"></i>
+                            School Campus
+                        </p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                        <a href="./HTML/events.html" class="card-link">
+                            Learn more
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- NEWS -->
+
+                <article class="news-card">
+
+                    <div class="news-image">
+                        <span>
+                            NEWS
+                        </span>
+                    </div>
+
+                    <div class="news-information">
+
+                        <span class="news-date">
+                            MARCH 10, 2027
+                        </span>
+
+                        <h3>
+                            School News Placeholder
+                        </h3>
+
+                        <p>
+                            Read the latest news and
+                            announcements from our school.
+                        </p>
+
+                        <a href="./HTML/news.html" class="card-link">
+                            Read story
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- EVENT -->
+
+                <article class="event-card">
+
+                    <div class="event-date">
+
+                        <span class="event-month">
+                            APR
+                        </span>
+
+                        <strong>
+                            02
+                        </strong>
+
+                        <span>
+                            2027
+                        </span>
+
+                    </div>
+
+
+                    <div class="event-information">
+
+                        <span class="event-type">
+                            STUDENT LIFE
+                        </span>
+
+                        <h3>
+                            Club Fair
+                        </h3>
+
+                        <p class="event-location">
+                            <i class="bx bx-map"></i>
+                            School Gymnasium
+                        </p>
+
+                        <p>
+                            Explore the different clubs and
+                            organizations available to students.
+                        </p>
+
+                        <a href="./HTML/clubs.html" class="card-link">
+                            Explore clubs
+                            <i class="bx bx-right-arrow-alt"></i>
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LIFE AT SCHOOL
+        ========================== -->
+
+        <section class="life-section">
+
+            <div class="life-content">
+
+                <span class="section-label">
+                    LIFE AT SCHOOL
+                </span>
+
+                <h2>
+                    More than a classroom.
+                </h2>
+
+                <p>
+                    School life is shaped by the people,
+                    activities, organizations, traditions,
+                    and experiences that happen beyond
+                    the classroom.
+                </p>
+
+                <a href="./HTML/clubs.html" class="primary-button">
+                    Explore Student Life
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+            </div>
+
+
+            <div class="life-grid">
+
+                <a href="./HTML/clubs.html" class="life-image life-one">
+                    <span>
+                        Clubs & Organizations
+                    </span>
+                </a>
+
+                <a href="./HTML/gallery.html" class="life-image life-two">
+                    <span>
+                        School Life
+                    </span>
+                </a>
+
+                <a href="./HTML/achievements.html" class="life-image life-three">
+                    <span>
+                        Achievements
+                    </span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             COMMUNITY
+        ========================== -->
+
+        <section class="community section">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    OUR COMMUNITY
+                </span>
+
+                <h2>
+                    A school built around
+                    <span>its people.</span>
+                </h2>
+
+                <p>
+                    Students, teachers, organizations,
+                    and families all contribute to the
+                    identity of our school.
+                </p>
+
+            </div>
+
+
+            <div class="community-grid">
+
+                <div class="community-item">
+                    <i class="bx bx-user"></i>
+                    <strong>Students</strong>
+                    <span>Discover. Create. Lead.</span>
+                </div>
+
+                <div class="community-item">
+                    <i class="bx bx-book-open"></i>
+                    <strong>Academics</strong>
+                    <span>Learn with purpose.</span>
+                </div>
+
+                <div class="community-item">
+                    <i class="bx bx-group"></i>
+                    <strong>Organizations</strong>
+                    <span>Find your community.</span>
+                </div>
+
+                <div class="community-item">
+                    <i class="bx bx-trophy"></i>
+                    <strong>Achievements</strong>
+                    <span>Celebrate excellence.</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <div class="brand-mark">
+                    PE
+                </div>
+
+                <div>
+                    <strong>
+                        PROJECT EMERALD
+                    </strong>
+
+                    <p>
+                        Official School Website
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+                    <h4>Explore</h4>
+
+                    <a href="./HTML/aboutus.html">About</a>
+                    <a href="./HTML/events.html">Events</a>
+                    <a href="./HTML/news.html">News</a>
+                    <a href="./HTML/clubs.html">Clubs</a>
+                </div>
+
+
+                <div>
+                    <h4>Information</h4>
+
+                    <a href="./HTML/gallery.html">Gallery</a>
+                    <a href="./HTML/achievements.html">Achievements</a>
+                    <a href="./HTML/admission.html">Admissions</a>
+                    <a href="./HTML/contact.html">Contact</a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2027 Project Emerald.
+                All rights reserved.
+            </p>
+
+            <p>
+                Designed & developed by
+                <strong>Design Club × ICT Club</strong>
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
 </html>
