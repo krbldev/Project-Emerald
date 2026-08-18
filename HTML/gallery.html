@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Page Not Found | Project Emerald</title>
+    <title>Project Emerald | Gallery</title>
 
     <link rel="stylesheet" href="../CSS/gallery.css">
 
@@ -22,74 +23,647 @@
 
 <body>
 
-    <main class="error-page">
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-        <div class="error-content">
+    <header class="site-header">
 
-            <div class="error-mark">
-                PE
-            </div>
-
-            <span class="error-label">
-                ERROR 404
-            </span>
-
-            <h1>
-                This page doesn't exist.
-            </h1>
-
-            <p>
-                The page you're looking for may have been moved,
-                removed, renamed, or perhaps never existed in the
-                first place.
-            </p>
-
-            <div class="error-buttons">
-
-                <a href="../index.html" class="primary-button">
-                    <i class="bx bx-home"></i>
-                    Return Home
-                </a>
-
-                <a href="javascript:history.back()" class="secondary-button">
-                    <i class="bx bx-arrow-back"></i>
-                    Go Back
-                </a>
-
-            </div>
-
-            <div class="error-divider"></div>
-
-            <p class="error-help">
-                If you believe this page should exist,
-                please contact the school through the
-                <a href="./HTML/contact.html">Contact page</a>.
-            </p>
-
-        </div>
-
-    </main>
-
-
-    <footer>
-
-        <div class="footer-brand">
+        <a href="../index.html" class="brand">
 
             <div class="brand-mark">
                 PE
             </div>
 
-            <div>
-                <strong>PROJECT EMERALD</strong>
-                <span>Official School Website</span>
+            <div class="brand-text">
+
+                <span class="brand-name">
+                    PROJECT EMERALD
+                </span>
+
+                <span class="brand-subtitle">
+                    Official School Website
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <nav class="navigation">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="./aboutus.html">
+                About
+            </a>
+
+            <a href="./events.html">
+                Events
+            </a>
+
+            <a href="./news.html">
+                News
+            </a>
+
+            <a href="./clubs.html">
+                Clubs
+            </a>
+
+            <a href="./contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- Google Login
+             Authentication intentionally disabled for now -->
+
+        <button id="login-button" class="login-button">
+
+            <i class="bx bxl-google"></i>
+
+            Login
+
+        </button>
+
+    </header>
+
+
+    <!-- =========================
+         MAIN
+    ========================== -->
+
+    <main>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="gallery-hero">
+
+            <div class="gallery-hero-overlay"></div>
+
+            <div class="gallery-hero-content">
+
+                <span class="section-label">
+                    SCHOOL GALLERY
+                </span>
+
+                <h1>
+                    Moments worth
+                    <span>remembering.</span>
+                </h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Integer vitae justo nec neque consequat tincidunt.
+                    Suspendisse potenti.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GALLERY INTRO
+        ========================== -->
+
+        <section class="gallery-intro section">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    EXPLORE
+                </span>
+
+                <h2>
+                    Life at school,
+                    <span>through our lens.</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Praesent vitae libero vel lorem tincidunt consectetur.
+                    Donec ullamcorper, lorem at tincidunt malesuada, erat
+                    justo interdum sapien, vitae feugiat neque lorem sed nisl.
+                </p>
+
+            </div>
+
+
+            <!-- =========================
+                 CATEGORY FILTERS
+            ========================== -->
+
+            <div class="gallery-filters">
+
+                <button class="filter-button active">
+                    All
+                </button>
+
+                <button class="filter-button">
+                    School Life
+                </button>
+
+                <button class="filter-button">
+                    Events
+                </button>
+
+                <button class="filter-button">
+                    Academics
+                </button>
+
+                <button class="filter-button">
+                    Clubs
+                </button>
+
+                <button class="filter-button">
+                    Sports
+                </button>
+
+                <button class="filter-button">
+                    Achievements
+                </button>
+
+            </div>
+
+
+            <!-- =========================
+                 GALLERY GRID
+            ========================== -->
+
+            <div class="gallery-grid">
+
+
+                <!-- FEATURED IMAGE -->
+
+                <article class="gallery-item gallery-large">
+
+                    <div class="gallery-image image-one">
+
+                        <span class="gallery-category">
+                            SCHOOL LIFE
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Lorem Ipsum Dolor
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 2 -->
+
+                <article class="gallery-item">
+
+                    <div class="gallery-image image-two">
+
+                        <span class="gallery-category">
+                            EVENTS
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Lorem Ipsum Event
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 3 -->
+
+                <article class="gallery-item">
+
+                    <div class="gallery-image image-three">
+
+                        <span class="gallery-category">
+                            ACADEMICS
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Academic Life
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 4 -->
+
+                <article class="gallery-item">
+
+                    <div class="gallery-image image-four">
+
+                        <span class="gallery-category">
+                            CLUBS
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Student Organizations
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 5 -->
+
+                <article class="gallery-item gallery-tall">
+
+                    <div class="gallery-image image-five">
+
+                        <span class="gallery-category">
+                            SPORTS
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Sports & Athletics
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 6 -->
+
+                <article class="gallery-item">
+
+                    <div class="gallery-image image-six">
+
+                        <span class="gallery-category">
+                            SCHOOL LIFE
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Campus Moments
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 7 -->
+
+                <article class="gallery-item">
+
+                    <div class="gallery-image image-seven">
+
+                        <span class="gallery-category">
+                            ACHIEVEMENTS
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Student Achievement
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <!-- IMAGE 8 -->
+
+                <article class="gallery-item gallery-wide">
+
+                    <div class="gallery-image image-eight">
+
+                        <span class="gallery-category">
+                            COMMUNITY
+                        </span>
+
+                    </div>
+
+                    <div class="gallery-caption">
+
+                        <h3>
+                            Our School Community
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             FEATURED MOMENTS
+        ========================== -->
+
+        <section class="featured-section">
+
+            <div class="featured-content">
+
+                <span class="section-label">
+                    FEATURED MOMENT
+                </span>
+
+                <h2>
+                    Lorem Ipsum
+                    <br>
+                    <span>Dolor Sit Amet.</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Curabitur tincidunt, sapien non consequat tincidunt,
+                    libero augue faucibus lectus, vitae luctus justo
+                    libero eget augue.
+                </p>
+
+                <a href="#" class="primary-button">
+
+                    View Collection
+
+                    <i class="bx bx-right-arrow-alt"></i>
+
+                </a>
+
+            </div>
+
+            <div class="featured-image"></div>
+
+        </section>
+
+
+        <!-- =========================
+             ARCHIVE
+        ========================== -->
+
+        <section class="archive section">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    PHOTO ARCHIVE
+                </span>
+
+                <h2>
+                    Explore our
+                    <span>collections.</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vestibulum ante ipsum primis in faucibus orci luctus
+                    et ultrices posuere cubilia curae.
+                </p>
+
+            </div>
+
+
+            <div class="archive-grid">
+
+
+                <a href="#" class="archive-card">
+
+                    <div class="archive-image archive-one"></div>
+
+                    <div class="archive-content">
+
+                        <span>
+                            COLLECTION 01
+                        </span>
+
+                        <h3>
+                            School Events
+                        </h3>
+
+                        <i class="bx bx-right-arrow-alt"></i>
+
+                    </div>
+
+                </a>
+
+
+                <a href="#" class="archive-card">
+
+                    <div class="archive-image archive-two"></div>
+
+                    <div class="archive-content">
+
+                        <span>
+                            COLLECTION 02
+                        </span>
+
+                        <h3>
+                            Student Life
+                        </h3>
+
+                        <i class="bx bx-right-arrow-alt"></i>
+
+                    </div>
+
+                </a>
+
+
+                <a href="#" class="archive-card">
+
+                    <div class="archive-image archive-three"></div>
+
+                    <div class="archive-content">
+
+                        <span>
+                            COLLECTION 03
+                        </span>
+
+                        <h3>
+                            Achievements
+                        </h3>
+
+                        <i class="bx bx-right-arrow-alt"></i>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <div class="brand-mark">
+                    PE
+                </div>
+
+                <div>
+
+                    <strong>
+                        PROJECT EMERALD
+                    </strong>
+
+                    <p>
+                        Official School Website
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="./aboutus.html">
+                        About
+                    </a>
+
+                    <a href="./events.html">
+                        Events
+                    </a>
+
+                    <a href="./news.html">
+                        News
+                    </a>
+
+                    <a href="./clubs.html">
+                        Clubs
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Information
+                    </h4>
+
+                    <a href="./gallery.html">
+                        Gallery
+                    </a>
+
+                    <a href="./achievements.html">
+                        Achievements
+                    </a>
+
+                    <a href="./admission.html">
+                        Admissions
+                    </a>
+
+                    <a href="./contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
 
-        <p>
-            &copy; 2027 Project Emerald.
-            All rights reserved.
-        </p>
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2027 Project Emerald.
+                All rights reserved.
+            </p>
+
+            <p>
+                Designed & developed by
+                <strong>
+                    Design Club × ICT Club
+                </strong>
+            </p>
+
+        </div>
 
     </footer>
 

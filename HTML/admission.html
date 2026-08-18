@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Page Not Found | Project Emerald</title>
+    <title>Admissions | Project Emerald</title>
 
     <link rel="stylesheet" href="../CSS/admission.css">
 
@@ -22,76 +23,919 @@
 
 <body>
 
-    <main class="error-page">
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-        <div class="error-content">
+    <header class="site-header">
 
-            <div class="error-mark">
-                PE
-            </div>
-
-            <span class="error-label">
-                ERROR 404
-            </span>
-
-            <h1>
-                This page doesn't exist.
-            </h1>
-
-            <p>
-                The page you're looking for may have been moved,
-                removed, renamed, or perhaps never existed in the
-                first place.
-            </p>
-
-            <div class="error-buttons">
-
-                <a href="../index.html" class="primary-button">
-                    <i class="bx bx-home"></i>
-                    Return Home
-                </a>
-
-                <a href="javascript:history.back()" class="secondary-button">
-                    <i class="bx bx-arrow-back"></i>
-                    Go Back
-                </a>
-
-            </div>
-
-            <div class="error-divider"></div>
-
-            <p class="error-help">
-                If you believe this page should exist,
-                please contact the school through the
-                <a href="./HTML/contact.html">Contact page</a>.
-            </p>
-
-        </div>
-
-    </main>
-
-
-    <footer>
-
-        <div class="footer-brand">
+        <a href="../index.html" class="brand">
 
             <div class="brand-mark">
                 PE
             </div>
 
+            <div class="brand-text">
+
+                <span class="brand-name">
+                    PROJECT EMERALD
+                </span>
+
+                <span class="brand-subtitle">
+                    Official School Website
+                </span>
+
+            </div>
+
+        </a>
+
+
+        <nav class="navigation">
+
+            <a href="../index.html">
+                Home
+            </a>
+
+            <a href="./aboutus.html">
+                About
+            </a>
+
+            <a href="./events.html">
+                Events
+            </a>
+
+            <a href="./news.html">
+                News
+            </a>
+
+            <a href="./clubs.html">
+                Clubs
+            </a>
+
+            <a href="./contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <!-- Google Login
+             Authentication intentionally disabled for now -->
+
+        <button id="login-button" class="login-button">
+
+            <i class="bx bxl-google"></i>
+
+            Login
+
+        </button>
+
+    </header>
+
+
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="admission-hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    ADMISSIONS
+                </span>
+
+                <h1>
+                    Begin your
+                    <span>journey.</span>
+                </h1>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Integer posuere erat a
+                    ante venenatis dapibus posuere velit aliquet.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a
+                        href="#process"
+                        class="primary-button"
+                    >
+                        Explore the Process
+                        <i class="bx bx-down-arrow-alt"></i>
+                    </a>
+
+                    <a
+                        href="#requirements"
+                        class="secondary-button"
+                    >
+                        Requirements
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             INTRO
+        ========================== -->
+
+        <section class="section admission-intro">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    WELCOME
+                </span>
+
+                <h2>
+                    Your next chapter
+                    <span>starts here.</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris.
+                </p>
+
+            </div>
+
+
+            <div class="admission-options">
+
+                <article class="option-card">
+
+                    <div class="option-icon">
+                        <i class="bx bx-user-plus"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="option-label">
+                            NEW STUDENTS
+                        </span>
+
+                        <h3>
+                            New Admission
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+
+                </article>
+
+
+                <article class="option-card">
+
+                    <div class="option-icon">
+                        <i class="bx bx-transfer"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="option-label">
+                            TRANSFEREES
+                        </span>
+
+                        <h3>
+                            Transfer Admission
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+
+                </article>
+
+
+                <article class="option-card">
+
+                    <div class="option-icon">
+                        <i class="bx bx-refresh"></i>
+                    </div>
+
+                    <div>
+
+                        <span class="option-label">
+                            RETURNING
+                        </span>
+
+                        <h3>
+                            Returning Students
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                    <i class="bx bx-right-arrow-alt arrow"></i>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ADMISSION PROCESS
+        ========================== -->
+
+        <section
+            class="process-section"
+            id="process"
+        >
+
+            <div class="section process-inner">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        HOW IT WORKS
+                    </span>
+
+                    <h2>
+                        The admission
+                        <span>process.</span>
+                    </h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Follow each step carefully to
+                        complete your application.
+                    </p>
+
+                </div>
+
+
+                <div class="process-timeline">
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            01
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP ONE
+                            </span>
+
+                            <h3>
+                                Create an Account
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Create your applicant account
+                                and provide the required
+                                information.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            02
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP TWO
+                            </span>
+
+                            <h3>
+                                Complete the Application
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Enter your personal, academic,
+                                and guardian information.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            03
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP THREE
+                            </span>
+
+                            <h3>
+                                Submit Requirements
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Upload or submit the documents
+                                required by the school.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            04
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP FOUR
+                            </span>
+
+                            <h3>
+                                Application Review
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                School personnel will review
+                                the submitted information.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            05
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP FIVE
+                            </span>
+
+                            <h3>
+                                Admission Decision
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Applicants will receive an
+                                update regarding their
+                                application status.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <article class="process-step">
+
+                        <div class="step-number">
+                            06
+                        </div>
+
+                        <div class="step-content">
+
+                            <span>
+                                STEP SIX
+                            </span>
+
+                            <h3>
+                                Enrollment
+                            </h3>
+
+                            <p>
+                                Lorem ipsum dolor sit amet,
+                                consectetur adipiscing elit.
+                                Complete the final enrollment
+                                procedures once approved.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             REQUIREMENTS
+        ========================== -->
+
+        <section
+            class="section requirements"
+            id="requirements"
+        >
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    REQUIREMENTS
+                </span>
+
+                <h2>
+                    What you'll
+                    <span>need.</span>
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                    The following list represents
+                    placeholder admission requirements.
+                </p>
+
+            </div>
+
+
+            <div class="requirements-grid">
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Student Information
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Academic Records
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        03
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Birth Certificate
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        04
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Guardian Information
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        05
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Previous School Records
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="requirement-card">
+
+                    <div class="requirement-number">
+                        06
+                    </div>
+
+                    <div>
+
+                        <h3>
+                            Additional Documents
+                        </h3>
+
+                        <p>
+                            Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             APPLICATION STATUS
+        ========================== -->
+
+        <section class="status-section">
+
+            <div class="status-inner">
+
+                <div>
+
+                    <span class="section-label">
+                        APPLICATION STATUS
+                    </span>
+
+                    <h2>
+                        Already applied?
+                    </h2>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Applicants may use the online
+                        portal to view the current status
+                        of their application.
+                    </p>
+
+                </div>
+
+
+                <a
+                    href="./404.html"
+                    class="status-button"
+                >
+                    Check Application Status
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             FAQ
+        ========================== -->
+
+        <section class="section faq">
+
+            <div class="section-heading">
+
+                <span class="section-label">
+                    QUESTIONS
+                </span>
+
+                <h2>
+                    Frequently asked
+                    <span>questions.</span>
+                </h2>
+
+            </div>
+
+
+            <div class="faq-list">
+
+
+                <details>
+
+                    <summary>
+                        Lorem ipsum dolor sit amet?
+                        <i class="bx bx-plus"></i>
+                    </summary>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Integer posuere erat a ante
+                        venenatis dapibus posuere velit
+                        aliquet.
+                    </p>
+
+                </details>
+
+
+
+                <details>
+
+                    <summary>
+                        Consectetur adipiscing elit?
+                        <i class="bx bx-plus"></i>
+                    </summary>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                        Integer posuere erat a ante
+                        venenatis dapibus.
+                    </p>
+
+                </details>
+
+
+
+                <details>
+
+                    <summary>
+                        Sed do eiusmod tempor incididunt?
+                        <i class="bx bx-plus"></i>
+                    </summary>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+
+                </details>
+
+
+
+                <details>
+
+                    <summary>
+                        Ut enim ad minim veniam?
+                        <i class="bx bx-plus"></i>
+                    </summary>
+
+                    <p>
+                        Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.
+                    </p>
+
+                </details>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CTA
+        ========================== -->
+
+        <section class="admission-cta">
+
             <div>
-                <strong>PROJECT EMERALD</strong>
-                <span>Official School Website</span>
+
+                <span class="section-label">
+                    HAVE QUESTIONS?
+                </span>
+
+                <h2>
+                    We're here to help.
+                </h2>
+
+                <p>
+                    Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit.
+                </p>
+
+                <a
+                    href="./contact.html"
+                    class="primary-button"
+                >
+                    Contact the School
+                    <i class="bx bx-right-arrow-alt"></i>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div class="footer-brand">
+
+                <div class="brand-mark">
+                    PE
+                </div>
+
+                <div>
+
+                    <strong>
+                        PROJECT EMERALD
+                    </strong>
+
+                    <p>
+                        Official School Website
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="../index.html">
+                        Home
+                    </a>
+
+                    <a href="./aboutus.html">
+                        About
+                    </a>
+
+                    <a href="./events.html">
+                        Events
+                    </a>
+
+                    <a href="./news.html">
+                        News
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Information
+                    </h4>
+
+                    <a href="./clubs.html">
+                        Clubs
+                    </a>
+
+                    <a href="./gallery.html">
+                        Gallery
+                    </a>
+
+                    <a href="./achievements.html">
+                        Achievements
+                    </a>
+
+                    <a href="./contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
             </div>
 
         </div>
 
-        <p>
-            &copy; 2027 Project Emerald.
-            All rights reserved.
-        </p>
+
+        <div class="footer-bottom">
+
+            <p>
+                &copy; 2027 Project Emerald.
+                All rights reserved.
+            </p>
+
+            <p>
+                Designed & developed by
+                <strong>
+                    Design Club × ICT Club
+                </strong>
+            </p>
+
+        </div>
 
     </footer>
 
 </body>
+
 </html>
